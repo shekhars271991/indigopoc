@@ -1,0 +1,179 @@
+{
+    "response": {
+        "data": {
+            "results": [
+                {
+                    "trips": [
+                        {
+                            "multipleOriginStations": false,
+                            "multipleDestinationStations": false,
+                            "date": "2023-11-27T00:00:00",
+                            "journeysAvailableByMarket": {
+                                "DEL|BOM": [
+                                    {
+                                        "flightType": 1,
+                                        "stops": 0,
+                                        "designator": {
+                                            "destination": "BOM",
+                                            "origin": "DEL",
+                                            "arrival": "2023-11-28T01:25:00",
+                                            "departure": "2023-11-27T23:05:00"
+                                        },
+                                        "journeyKey": "NkV_IDUxOX4gfn5ERUx_MTEvMjcvMjAyMyAyMzowNX5CT01_MTEvMjgvMjAyMyAwMToyNX5_",
+                                        
+                                        "fares": [
+                                            {
+                                                "fareAvailabilityKey": "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flghMA--",
+                                                "details": [
+                                                    {
+                                                        "availableCount": 15,
+                                                        "status": 1,
+                                                        "reference": "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flg-",
+                                                        "serviceBundleSetCode": null,
+                                                        "bundleReferences": null,
+                                                        "ssrReferences": null
+                                                    }
+                                                ],
+                                                "isSumOfSector": false
+                                            }
+                                        ],
+                                        "notForGeneralUser": false
+                                    },
+                                    {
+                                        "flightType": 1,
+                                        "stops": 0,
+                                        "designator": {
+                                            "destination": "BOM",
+                                            "origin": "DEL",
+                                            "arrival": "2023-11-27T05:45:00",
+                                            "departure": "2023-11-27T03:30:00"
+                                        },
+                                        "journeyKey": "NkV_Mjc2Nn4gfn5ERUx_MTEvMjcvMjAyMyAwMzozMH5CT01_MTEvMjcvMjAyMyAwNTo0NX5_",
+                                        
+                                        "fares": [
+                                            {
+                                                "fareAvailabilityKey": "MH5Kfn42RX5KMElQfjEwNTd_fjB_MTJ_flghMQ--",
+                                                "details": [
+                                                    {
+                                                        "availableCount": 12,
+                                                        "status": 1,
+                                                        "reference": "MH5Kfn42RX5KMElQfjEwNTd_fjB_MTJ_flg-",
+                                                        "serviceBundleSetCode": null,
+                                                        "bundleReferences": null,
+                                                        "ssrReferences": null
+                                                    }
+                                                ],
+                                                "isSumOfSector": false
+                                            }
+                                        ],
+                                        "notForGeneralUser": false
+                                    },
+                                    {
+                                        "flightType": 1,
+                                        "stops": 0,
+                                        "designator": {
+                                            "destination": "BOM",
+                                            "origin": "DEL",
+                                            "arrival": "2023-11-27T20:25:00",
+                                            "departure": "2023-11-27T18:15:00"
+                                        },
+                                        "journeyKey": "NkV_MjMyN34gfn5ERUx_MTEvMjcvMjAyMyAxODoxNX5CT01_MTEvMjcvMjAyMyAyMDoyNX5_",
+                                       
+                                        "fares": [
+                                            {
+                                                "fareAvailabilityKey": "MH5Pfn42RX5PMElQfjEwNTl_fjB_MzB_flghMg--",
+                                                "details": [
+                                                    {
+                                                        "availableCount": 6,
+                                                        "status": 1,
+                                                        "reference": "MH5Pfn42RX5PMElQfjEwNTl_fjB_MzB_flg-",
+                                                        "serviceBundleSetCode": null,
+                                                        "bundleReferences": null,
+                                                        "ssrReferences": null
+                                                    }
+                                                ],
+                                                "isSumOfSector": false
+                                            }
+                                        ],
+                                        "notForGeneralUser": false
+                                    }
+                                    
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "faresAvailable": {
+                "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flghMA--": {
+                    "totals": {
+                        "fareTotal": 6217,
+                        "revenueTotal": 4900,
+                        "publishedTotal": 4900,
+                        "loyaltyTotal": 0,
+                        "discountedTotal": 4900
+                    },
+                    "isSumOfSector": false,
+                    "fareAvailabilityKey": "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flghMA--",
+                    "fares": [
+                        {
+                            "isGoverning": true,
+                            "fareBasisCode": "J0IP",
+                            "classOfService": "J",
+                            "classType": null,
+                            "fareApplicationType": 0,
+                            "fareStatus": 0,
+                            "productClass": "R",
+                            "ruleNumber": "1059",
+                            "ruleTariff": null,
+                            "passengerFares": [
+                                {
+                                    "fareDiscountCode": null,
+                                    "passengerDiscountCode": null,
+                                    "passengerType": "ADT",
+                                    "fareAmount": 6216,
+                                    "revenueFare": 4900,
+                                    "publishedFare": 4900,
+                                    "loyaltyPoints": 0,
+                                    "discountedFare": 4900,
+                                    "serviceCharges": [
+                                        {
+                                            "amount": 4900,
+                                            "code": null,
+                                            "detail": null,
+                                            "type": 0,
+                                            "collectType": 0,
+                                            "currencyCode": "INR",
+                                            "foreignCurrencyCode": "INR",
+                                            "foreignAmount": 4900,
+                                            "ticketCode": null
+                                        },
+                                        {
+                                            "amount": 1316,
+                                            "code": null,
+                                            "detail": "TaxFeeSum",
+                                            "type": 5,
+                                            "collectType": 0,
+                                            "currencyCode": "INR",
+                                            "foreignCurrencyCode": "INR",
+                                            "foreignAmount": 1316,
+                                            "ticketCode": null
+                                        }
+                                    ],
+                                    "multiplier": 1
+                                }
+                            ],
+                            "travelClassCode": null,
+                            "isAllotmentMarketFare": false,
+                            "reference": "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flg-"
+                        }
+                    ]
+                }
+            
+            },
+            "currencyCode": "INR",
+            "includeTaxesAndFees": true,
+            "bundleOffers": null
+        }
+    }
+}

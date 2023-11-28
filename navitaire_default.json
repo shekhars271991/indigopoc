@@ -1,0 +1,2699 @@
+{
+    "name": "DEL-BOM with beginDate",
+    "request": {
+      "codes": {
+        "currency": "INR",
+        "promotionCode": "",
+        "vaxDoseNo": ""
+      },
+      "criteria": [
+        {
+          "dates": {
+            "beginDate": "2023-11-27"
+          },
+          "flightFilters": {
+            "type": "All"
+          },
+          "stations": {
+            "originStationCodes": ["DEL"],
+            "destinationStationCodes": ["BOM"]
+          }
+        }
+      ],
+      "passengers": {
+        "residentCountry": "IN",
+        "types": [
+          {
+            "count": 1,
+            "discountCode": "",
+            "type": "ADT"
+          }
+        ]
+      },
+      "taxesAndFees": "TaxesAndFees"
+    },
+    "response": {
+      "data": {
+        "results": [
+          {
+            "trips": [
+              {
+                "multipleOriginStations": false,
+                "multipleDestinationStations": false,
+                "date": "2023-11-27T00:00:00",
+                "journeysAvailableByMarket": {
+                  "DEL|BOM": [
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-28T01:25:00",
+                        "departure": "2023-11-27T23:05:00"
+                      },
+                      "journeyKey": "NkV_IDUxOX4gfn5ERUx_MTEvMjcvMjAyMyAyMzowNX5CT01_MTEvMjgvMjAyMyAwMToyNX5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-28T01:25:00",
+                            "departure": "2023-11-27T23:05:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_IDUxOX4gfn5ERUx_MTEvMjcvMjAyMyAyMzowNX5CT01_MTEvMjgvMjAyMyAwMToyNX5_",
+                          "identifier": {
+                            "identifier": "519",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY3MjMxMDAwMDAwMDAwITZFITUxOSEgIURFTCFCT00hNzcyNTg1Mg--",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-28T01:25:00",
+                                "departure": "2023-11-27T23:05:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T17:35:00Z",
+                                "arrivalTimeUtc": "2023-11-27T19:55:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-28T01:25:00",
+                                "departureTime": "2023-11-27T23:05:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhIDUxOSEgITYzODM2NzIzMTAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E 519 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flghMA--",
+                          "details": [
+                            {
+                              "availableCount": 15,
+                              "status": 1,
+                              "reference": "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T05:45:00",
+                        "departure": "2023-11-27T03:30:00"
+                      },
+                      "journeyKey": "NkV_Mjc2Nn4gfn5ERUx_MTEvMjcvMjAyMyAwMzozMH5CT01_MTEvMjcvMjAyMyAwNTo0NX5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T05:45:00",
+                            "departure": "2023-11-27T03:30:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_Mjc2Nn4gfn5ERUx_MTEvMjcvMjAyMyAwMzozMH5CT01_MTEvMjcvMjAyMyAwNTo0NX5_",
+                          "identifier": {
+                            "identifier": "2766",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2NTI2MDAwMDAwMDAwITZFITI3NjYhICFERUwhQk9NITgwMjA5ODA-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T05:45:00",
+                                "departure": "2023-11-27T03:30:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-26T22:00:00Z",
+                                "arrivalTimeUtc": "2023-11-27T00:15:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "2",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "320",
+                                "equipmentTypeSuffix": "32S",
+                                "eTicket": false,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T05:45:00",
+                                "departureTime": "2023-11-27T03:30:00",
+                                "prbcCode": "Y186",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhMjc2NiEgITYzODM2NjUyNjAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E2766 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Kfn42RX5KMElQfjEwNTd_fjB_MTJ_flghMQ--",
+                          "details": [
+                            {
+                              "availableCount": 12,
+                              "status": 1,
+                              "reference": "MH5Kfn42RX5KMElQfjEwNTd_fjB_MTJ_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T20:25:00",
+                        "departure": "2023-11-27T18:15:00"
+                      },
+                      "journeyKey": "NkV_MjMyN34gfn5ERUx_MTEvMjcvMjAyMyAxODoxNX5CT01_MTEvMjcvMjAyMyAyMDoyNX5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T20:25:00",
+                            "departure": "2023-11-27T18:15:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_MjMyN34gfn5ERUx_MTEvMjcvMjAyMyAxODoxNX5CT01_MTEvMjcvMjAyMyAyMDoyNX5_",
+                          "identifier": {
+                            "identifier": "2327",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY3MDU3MDAwMDAwMDAwITZFITIzMjchICFERUwhQk9NITc4ODk4Nzc-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T20:25:00",
+                                "departure": "2023-11-27T18:15:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T12:45:00Z",
+                                "arrivalTimeUtc": "2023-11-27T14:55:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "2",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T20:25:00",
+                                "departureTime": "2023-11-27T18:15:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhMjMyNyEgITYzODM2NzA1NzAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E2327 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Pfn42RX5PMElQfjEwNTl_fjB_MzB_flghMg--",
+                          "details": [
+                            {
+                              "availableCount": 6,
+                              "status": 1,
+                              "reference": "MH5Pfn42RX5PMElQfjEwNTl_fjB_MzB_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T23:25:00",
+                        "departure": "2023-11-27T21:00:00"
+                      },
+                      "journeyKey": "NkV_IDM5NX4gfn5ERUx_MTEvMjcvMjAyMyAyMTowMH5CT01_MTEvMjcvMjAyMyAyMzoyNX5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T23:25:00",
+                            "departure": "2023-11-27T21:00:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_IDM5NX4gfn5ERUx_MTEvMjcvMjAyMyAyMTowMH5CT01_MTEvMjcvMjAyMyAyMzoyNX5_",
+                          "identifier": {
+                            "identifier": "395",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY3MTU2MDAwMDAwMDAwITZFITM5NSEgIURFTCFCT00hNzc4Mzc0MQ--",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T23:25:00",
+                                "departure": "2023-11-27T21:00:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T15:30:00Z",
+                                "arrivalTimeUtc": "2023-11-27T17:55:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T23:25:00",
+                                "departureTime": "2023-11-27T21:00:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhIDM5NSEgITYzODM2NzE1NjAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E 395 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Pfn42RX5PMElQfjEwNTl_fjB_MzB_flghMg--",
+                          "details": [
+                            {
+                              "availableCount": 1,
+                              "status": 1,
+                              "reference": "MH5Pfn42RX5PMElQfjEwNTl_fjB_MzB_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T14:50:00",
+                        "departure": "2023-11-27T12:30:00"
+                      },
+                      "journeyKey": "NkV_MjAwOX4gfn5ERUx_MTEvMjcvMjAyMyAxMjozMH5CT01_MTEvMjcvMjAyMyAxNDo1MH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T14:50:00",
+                            "departure": "2023-11-27T12:30:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_MjAwOX4gfn5ERUx_MTEvMjcvMjAyMyAxMjozMH5CT01_MTEvMjcvMjAyMyAxNDo1MH5_",
+                          "identifier": {
+                            "identifier": "2009",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2ODUwMDAwMDAwMDAwITZFITIwMDkhICFERUwhQk9NITc3Mjg0NjQ-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T14:50:00",
+                                "departure": "2023-11-27T12:30:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T07:00:00Z",
+                                "arrivalTimeUtc": "2023-11-27T09:20:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "2",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T14:50:00",
+                                "departureTime": "2023-11-27T12:30:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhMjAwOSEgITYzODM2Njg1MDAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E2009 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Ofn42RX5OMElQfjEwNTl_fjB_MzN_flghMw--",
+                          "details": [
+                            {
+                              "availableCount": 6,
+                              "status": 1,
+                              "reference": "MH5Ofn42RX5OMElQfjEwNTl_fjB_MzN_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T18:30:00",
+                        "departure": "2023-11-27T16:15:00"
+                      },
+                      "journeyKey": "NkV_NjMxOH4gfn5ERUx_MTEvMjcvMjAyMyAxNjoxNX5CT01_MTEvMjcvMjAyMyAxODozMH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T18:30:00",
+                            "departure": "2023-11-27T16:15:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjMxOH4gfn5ERUx_MTEvMjcvMjAyMyAxNjoxNX5CT01_MTEvMjcvMjAyMyAxODozMH5_",
+                          "identifier": {
+                            "identifier": "6318",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2OTg1MDAwMDAwMDAwITZFITYzMTghICFERUwhQk9NITc3NTMwNDI-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T18:30:00",
+                                "departure": "2023-11-27T16:15:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T10:45:00Z",
+                                "arrivalTimeUtc": "2023-11-27T13:00:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "222",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T18:30:00",
+                                "departureTime": "2023-11-27T16:15:00",
+                                "prbcCode": "Y222",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjMxOCEgITYzODM2Njk4NTAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6318 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Ofn42RX5OMElQfjEwNTl_fjB_MzN_flghMw--",
+                          "details": [
+                            {
+                              "availableCount": 8,
+                              "status": 1,
+                              "reference": "MH5Ofn42RX5OMElQfjEwNTl_fjB_MzN_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T13:30:00",
+                        "departure": "2023-11-27T11:15:00"
+                      },
+                      "journeyKey": "NkV_NjA0N34gfn5ERUx_MTEvMjcvMjAyMyAxMToxNX5CT01_MTEvMjcvMjAyMyAxMzozMH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T13:30:00",
+                            "departure": "2023-11-27T11:15:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjA0N34gfn5ERUx_MTEvMjcvMjAyMyAxMToxNX5CT01_MTEvMjcvMjAyMyAxMzozMH5_",
+                          "identifier": {
+                            "identifier": "6047",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2ODA1MDAwMDAwMDAwITZFITYwNDchICFERUwhQk9NITc3NDg1MjU-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T13:30:00",
+                                "departure": "2023-11-27T11:15:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T05:45:00Z",
+                                "arrivalTimeUtc": "2023-11-27T08:00:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T13:30:00",
+                                "departureTime": "2023-11-27T11:15:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjA0NyEgITYzODM2NjgwNTAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6047 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Ufn42RX5UMElQfjEwNTd_fjB_MTJ_flghNA--",
+                          "details": [
+                            {
+                              "availableCount": 7,
+                              "status": 1,
+                              "reference": "MH5Ufn42RX5UMElQfjEwNTd_fjB_MTJ_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T07:35:00",
+                        "departure": "2023-11-27T05:30:00"
+                      },
+                      "journeyKey": "NkV_IDQ0OX4gfn5ERUx_MTEvMjcvMjAyMyAwNTozMH5CT01_MTEvMjcvMjAyMyAwNzozNX5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T07:35:00",
+                            "departure": "2023-11-27T05:30:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_IDQ0OX4gfn5ERUx_MTEvMjcvMjAyMyAwNTozMH5CT01_MTEvMjcvMjAyMyAwNzozNX5_",
+                          "identifier": {
+                            "identifier": "449",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2NTk4MDAwMDAwMDAwITZFITQ0OSEgIURFTCFCT00hNzcyNTE2NA--",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T07:35:00",
+                                "departure": "2023-11-27T05:30:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T00:00:00Z",
+                                "arrivalTimeUtc": "2023-11-27T02:05:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T07:35:00",
+                                "departureTime": "2023-11-27T05:30:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhIDQ0OSEgITYzODM2NjU5ODAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E 449 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Nfn42RX5NMElQfjEwNTl_fjB_Mjd_flghNQ--",
+                          "details": [
+                            {
+                              "availableCount": 5,
+                              "status": 1,
+                              "reference": "MH5Nfn42RX5NMElQfjEwNTl_fjB_Mjd_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T10:50:00",
+                        "departure": "2023-11-27T08:45:00"
+                      },
+                      "journeyKey": "NkV_NjEwN34gfn5ERUx_MTEvMjcvMjAyMyAwODo0NX5CT01_MTEvMjcvMjAyMyAxMDo1MH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T10:50:00",
+                            "departure": "2023-11-27T08:45:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjEwN34gfn5ERUx_MTEvMjcvMjAyMyAwODo0NX5CT01_MTEvMjcvMjAyMyAxMDo1MH5_",
+                          "identifier": {
+                            "identifier": "6107",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2NzE1MDAwMDAwMDAwITZFITYxMDchICFERUwhQk9NITc3NTAxOTE-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T10:50:00",
+                                "departure": "2023-11-27T08:45:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T03:15:00Z",
+                                "arrivalTimeUtc": "2023-11-27T05:20:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T10:50:00",
+                                "departureTime": "2023-11-27T08:45:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjEwNyEgITYzODM2NjcxNTAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6107 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Nfn42RX5NMElQfjEwNTl_fjB_Mjd_flghNQ--",
+                          "details": [
+                            {
+                              "availableCount": 2,
+                              "status": 1,
+                              "reference": "MH5Nfn42RX5NMElQfjEwNTl_fjB_Mjd_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T21:20:00",
+                        "departure": "2023-11-27T19:15:00"
+                      },
+                      "journeyKey": "NkV_IDM1NH4gfn5ERUx_MTEvMjcvMjAyMyAxOToxNX5CT01_MTEvMjcvMjAyMyAyMToyMH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T21:20:00",
+                            "departure": "2023-11-27T19:15:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_IDM1NH4gfn5ERUx_MTEvMjcvMjAyMyAxOToxNX5CT01_MTEvMjcvMjAyMyAyMToyMH5_",
+                          "identifier": {
+                            "identifier": "354",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY3MDkzMDAwMDAwMDAwITZFITM1NCEgIURFTCFCT00hNzk1NDAwNg--",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T21:20:00",
+                                "departure": "2023-11-27T19:15:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T13:45:00Z",
+                                "arrivalTimeUtc": "2023-11-27T15:50:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T21:20:00",
+                                "departureTime": "2023-11-27T19:15:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhIDM1NCEgITYzODM2NzA5MzAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E 354 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Nfn42RX5NMElQfjEwNTl_fjB_Mjd_flghNQ--",
+                          "details": [
+                            {
+                              "availableCount": 2,
+                              "status": 1,
+                              "reference": "MH5Nfn42RX5NMElQfjEwNTl_fjB_Mjd_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T08:40:00",
+                        "departure": "2023-11-27T06:30:00"
+                      },
+                      "journeyKey": "NkV_NjIxOH4gfn5ERUx_MTEvMjcvMjAyMyAwNjozMH5CT01_MTEvMjcvMjAyMyAwODo0MH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T08:40:00",
+                            "departure": "2023-11-27T06:30:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjIxOH4gfn5ERUx_MTEvMjcvMjAyMyAwNjozMH5CT01_MTEvMjcvMjAyMyAwODo0MH5_",
+                          "identifier": {
+                            "identifier": "6218",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2NjM0MDAwMDAwMDAwITZFITYyMTghICFERUwhQk9NITc3NTIwMDU-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T08:40:00",
+                                "departure": "2023-11-27T06:30:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T01:00:00Z",
+                                "arrivalTimeUtc": "2023-11-27T03:10:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T08:40:00",
+                                "departureTime": "2023-11-27T06:30:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjIxOCEgITYzODM2NjYzNDAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6218 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flghNg--",
+                          "details": [
+                            {
+                              "availableCount": 12,
+                              "status": 1,
+                              "reference": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T09:25:00",
+                        "departure": "2023-11-27T07:15:00"
+                      },
+                      "journeyKey": "NkV_NjgxNH4gfn5ERUx_MTEvMjcvMjAyMyAwNzoxNX5CT01_MTEvMjcvMjAyMyAwOToyNX5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T09:25:00",
+                            "departure": "2023-11-27T07:15:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjgxNH4gfn5ERUx_MTEvMjcvMjAyMyAwNzoxNX5CT01_MTEvMjcvMjAyMyAwOToyNX5_",
+                          "identifier": {
+                            "identifier": "6814",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2NjYxMDAwMDAwMDAwITZFITY4MTQhICFERUwhQk9NITY3ODE5NzY-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T09:25:00",
+                                "departure": "2023-11-27T07:15:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T01:45:00Z",
+                                "arrivalTimeUtc": "2023-11-27T03:55:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "222",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T09:25:00",
+                                "departureTime": "2023-11-27T07:15:00",
+                                "prbcCode": "Y222",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjgxNCEgITYzODM2NjY2MTAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6814 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flghNg--",
+                          "details": [
+                            {
+                              "availableCount": 6,
+                              "status": 1,
+                              "reference": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T12:15:00",
+                        "departure": "2023-11-27T10:00:00"
+                      },
+                      "journeyKey": "NkV_NjMyOH4gfn5ERUx_MTEvMjcvMjAyMyAxMDowMH5CT01_MTEvMjcvMjAyMyAxMjoxNX5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T12:15:00",
+                            "departure": "2023-11-27T10:00:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjMyOH4gfn5ERUx_MTEvMjcvMjAyMyAxMDowMH5CT01_MTEvMjcvMjAyMyAxMjoxNX5_",
+                          "identifier": {
+                            "identifier": "6328",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2NzYwMDAwMDAwMDAwITZFITYzMjghICFERUwhQk9NITc3NTMxOTY-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T12:15:00",
+                                "departure": "2023-11-27T10:00:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T04:30:00Z",
+                                "arrivalTimeUtc": "2023-11-27T06:45:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T12:15:00",
+                                "departureTime": "2023-11-27T10:00:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjMyOCEgITYzODM2Njc2MDAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6328 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flghNg--",
+                          "details": [
+                            {
+                              "availableCount": 36,
+                              "status": 1,
+                              "reference": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T17:20:00",
+                        "departure": "2023-11-27T15:15:00"
+                      },
+                      "journeyKey": "NkV_NjAyMn4gfn5ERUx_MTEvMjcvMjAyMyAxNToxNX5CT01_MTEvMjcvMjAyMyAxNzoyMH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T17:20:00",
+                            "departure": "2023-11-27T15:15:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjAyMn4gfn5ERUx_MTEvMjcvMjAyMyAxNToxNX5CT01_MTEvMjcvMjAyMyAxNzoyMH5_",
+                          "identifier": {
+                            "identifier": "6022",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2OTQ5MDAwMDAwMDAwITZFITYwMjIhICFERUwhQk9NITc3NDczMTc-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T17:20:00",
+                                "departure": "2023-11-27T15:15:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T09:45:00Z",
+                                "arrivalTimeUtc": "2023-11-27T11:50:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T17:20:00",
+                                "departureTime": "2023-11-27T15:15:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjAyMiEgITYzODM2Njk0OTAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6022 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flghNg--",
+                          "details": [
+                            {
+                              "availableCount": 18,
+                              "status": 1,
+                              "reference": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T19:25:00",
+                        "departure": "2023-11-27T17:15:00"
+                      },
+                      "journeyKey": "NkV_IDg2NH4gfn5ERUx_MTEvMjcvMjAyMyAxNzoxNX5CT01_MTEvMjcvMjAyMyAxOToyNX5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T19:25:00",
+                            "departure": "2023-11-27T17:15:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_IDg2NH4gfn5ERUx_MTEvMjcvMjAyMyAxNzoxNX5CT01_MTEvMjcvMjAyMyAxOToyNX5_",
+                          "identifier": {
+                            "identifier": "864",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY3MDIxMDAwMDAwMDAwITZFITg2NCEgIURFTCFCT00hNjc4MTAzOQ--",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T19:25:00",
+                                "departure": "2023-11-27T17:15:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T11:45:00Z",
+                                "arrivalTimeUtc": "2023-11-27T13:55:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T19:25:00",
+                                "departureTime": "2023-11-27T17:15:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhIDg2NCEgITYzODM2NzAyMTAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E 864 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flghNg--",
+                          "details": [
+                            {
+                              "availableCount": 17,
+                              "status": 1,
+                              "reference": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T22:20:00",
+                        "departure": "2023-11-27T20:00:00"
+                      },
+                      "journeyKey": "NkV_NjAxNn4gfn5ERUx_MTEvMjcvMjAyMyAyMDowMH5CT01_MTEvMjcvMjAyMyAyMjoyMH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T22:20:00",
+                            "departure": "2023-11-27T20:00:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjAxNn4gfn5ERUx_MTEvMjcvMjAyMyAyMDowMH5CT01_MTEvMjcvMjAyMyAyMjoyMH5_",
+                          "identifier": {
+                            "identifier": "6016",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY3MTIwMDAwMDAwMDAwITZFITYwMTYhICFERUwhQk9NITc3OTY1NDE-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T22:20:00",
+                                "departure": "2023-11-27T20:00:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T14:30:00Z",
+                                "arrivalTimeUtc": "2023-11-27T16:50:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "222",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T22:20:00",
+                                "departureTime": "2023-11-27T20:00:00",
+                                "prbcCode": "Y222",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjAxNiEgITYzODM2NzEyMDAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6016 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flghNg--",
+                          "details": [
+                            {
+                              "availableCount": 23,
+                              "status": 1,
+                              "reference": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-28T00:25:00",
+                        "departure": "2023-11-27T22:15:00"
+                      },
+                      "journeyKey": "NkV_NjExNH4gfn5ERUx_MTEvMjcvMjAyMyAyMjoxNX5CT01_MTEvMjgvMjAyMyAwMDoyNX5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-28T00:25:00",
+                            "departure": "2023-11-27T22:15:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjExNH4gfn5ERUx_MTEvMjcvMjAyMyAyMjoxNX5CT01_MTEvMjgvMjAyMyAwMDoyNX5_",
+                          "identifier": {
+                            "identifier": "6114",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY3MjAxMDAwMDAwMDAwITZFITYxMTQhICFERUwhQk9NITc3NTAzNDU-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-28T00:25:00",
+                                "departure": "2023-11-27T22:15:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T16:45:00Z",
+                                "arrivalTimeUtc": "2023-11-27T18:55:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-28T00:25:00",
+                                "departureTime": "2023-11-27T22:15:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjExNCEgITYzODM2NzIwMTAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6114 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flghNg--",
+                          "details": [
+                            {
+                              "availableCount": 22,
+                              "status": 1,
+                              "reference": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T10:10:00",
+                        "departure": "2023-11-27T08:00:00"
+                      },
+                      "journeyKey": "NkV_IDY3NX4gfn5ERUx_MTEvMjcvMjAyMyAwODowMH5CT01_MTEvMjcvMjAyMyAxMDoxMH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T10:10:00",
+                            "departure": "2023-11-27T08:00:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_IDY3NX4gfn5ERUx_MTEvMjcvMjAyMyAwODowMH5CT01_MTEvMjcvMjAyMyAxMDoxMH5_",
+                          "identifier": {
+                            "identifier": "675",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2Njg4MDAwMDAwMDAwITZFITY3NSEgIURFTCFCT00hNzcyNjkxOQ--",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T10:10:00",
+                                "departure": "2023-11-27T08:00:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T02:30:00Z",
+                                "arrivalTimeUtc": "2023-11-27T04:40:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T10:10:00",
+                                "departureTime": "2023-11-27T08:00:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhIDY3NSEgITYzODM2NjY4ODAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E 675 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Ofn42RX5OMElQfjEwNTd_fjB_MTAzfn5YITc-",
+                          "details": [
+                            {
+                              "availableCount": 10,
+                              "status": 1,
+                              "reference": "MH5Ofn42RX5OMElQfjEwNTd_fjB_MTAzfn5Y",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T04:20:00",
+                        "departure": "2023-11-27T02:00:00"
+                      },
+                      "journeyKey": "NkV_MjcxNn4gfn5ERUx_MTEvMjcvMjAyMyAwMjowMH5CT01_MTEvMjcvMjAyMyAwNDoyMH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T04:20:00",
+                            "departure": "2023-11-27T02:00:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_MjcxNn4gfn5ERUx_MTEvMjcvMjAyMyAwMjowMH5CT01_MTEvMjcvMjAyMyAwNDoyMH5_",
+                          "identifier": {
+                            "identifier": "2716",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2NDcyMDAwMDAwMDAwITZFITI3MTYhICFERUwhQk9NITY3ODE0MzQ-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T04:20:00",
+                                "departure": "2023-11-27T02:00:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-26T20:30:00Z",
+                                "arrivalTimeUtc": "2023-11-26T22:50:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "2",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "323",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T04:20:00",
+                                "departureTime": "2023-11-27T02:00:00",
+                                "prbcCode": "Y232",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhMjcxNiEgITYzODM2NjQ3MjAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E2716 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Nfn42RX5NMElQfjEwNTd_fjB_MTAxfn5YITg-",
+                          "details": [
+                            {
+                              "availableCount": 13,
+                              "status": 1,
+                              "reference": "MH5Nfn42RX5NMElQfjEwNTd_fjB_MTAxfn5Y",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    },
+                    {
+                      "flightType": 1,
+                      "stops": 0,
+                      "designator": {
+                        "destination": "BOM",
+                        "origin": "DEL",
+                        "arrival": "2023-11-27T16:10:00",
+                        "departure": "2023-11-27T13:55:00"
+                      },
+                      "journeyKey": "NkV_NjY3Nn4gfn5ERUx_MTEvMjcvMjAyMyAxMzo1NX5CT01_MTEvMjcvMjAyMyAxNjoxMH5_",
+                      "segments": [
+                        {
+                          "isChangeOfGauge": false,
+                          "isBlocked": false,
+                          "isHosted": true,
+                          "designator": {
+                            "destination": "BOM",
+                            "origin": "DEL",
+                            "arrival": "2023-11-27T16:10:00",
+                            "departure": "2023-11-27T13:55:00"
+                          },
+                          "isSeatmapViewable": true,
+                          "segmentKey": "NkV_NjY3Nn4gfn5ERUx_MTEvMjcvMjAyMyAxMzo1NX5CT01_MTEvMjcvMjAyMyAxNjoxMH5_",
+                          "identifier": {
+                            "identifier": "6676",
+                            "carrierCode": "6E",
+                            "opSuffix": null
+                          },
+                          "cabinOfService": null,
+                          "externalIdentifier": null,
+                          "international": false,
+                          "segmentType": 0,
+                          "legs": [
+                            {
+                              "legKey": "NjM4MzY2OTAxMDAwMDAwMDAwITZFITY2NzYhICFERUwhQk9NITc3NTU2MzM-",
+                              "operationsInfo": null,
+                              "designator": {
+                                "destination": "BOM",
+                                "origin": "DEL",
+                                "arrival": "2023-11-27T16:10:00",
+                                "departure": "2023-11-27T13:55:00"
+                              },
+                              "legInfo": {
+                                "departureTimeUtc": "2023-11-27T08:25:00Z",
+                                "arrivalTimeUtc": "2023-11-27T10:40:00Z",
+                                "adjustedCapacity": 0,
+                                "arrivalTerminal": "2",
+                                "arrivalTimeVariant": 330,
+                                "backMoveDays": 0,
+                                "capacity": 0,
+                                "changeOfDirection": false,
+                                "codeShareIndicator": 0,
+                                "departureTerminal": "1",
+                                "departureTimeVariant": 330,
+                                "equipmentType": "321",
+                                "equipmentTypeSuffix": "222",
+                                "eTicket": true,
+                                "irop": false,
+                                "lid": 0,
+                                "marketingCode": null,
+                                "marketingOverride": false,
+                                "operatedByText": null,
+                                "operatingCarrier": null,
+                                "operatingFlightNumber": null,
+                                "operatingOpSuffix": null,
+                                "outMoveDays": 0,
+                                "arrivalTime": "2023-11-27T16:10:00",
+                                "departureTime": "2023-11-27T13:55:00",
+                                "prbcCode": "Y222",
+                                "scheduleServiceType": "J",
+                                "sold": 0,
+                                "status": 0,
+                                "subjectToGovtApproval": false
+                              },
+                              "nests": [],
+                              "ssrs": [],
+                              "seatmapReference": "NkUhNjY3NiEgITYzODM2NjkwMTAwMDAwMDAwMCFERUwhQk9N",
+                              "flightReference": "20231127 6E6676 DELBOM"
+                            }
+                          ]
+                        }
+                      ],
+                      "fares": [
+                        {
+                          "fareAvailabilityKey": "MH5Lfn42RX5LMElQfjEwNTl_fjB_MjB_flghOQ--",
+                          "details": [
+                            {
+                              "availableCount": 12,
+                              "status": 1,
+                              "reference": "MH5Lfn42RX5LMElQfjEwNTl_fjB_MjB_flg-",
+                              "serviceBundleSetCode": null,
+                              "bundleReferences": null,
+                              "ssrReferences": null
+                            }
+                          ],
+                          "isSumOfSector": false
+                        }
+                      ],
+                      "notForGeneralUser": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        ],
+        "faresAvailable": {
+          "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flghMA--": {
+            "totals": {
+              "fareTotal": 6216,
+              "revenueTotal": 4900,
+              "publishedTotal": 4900,
+              "loyaltyTotal": 0,
+              "discountedTotal": 4900
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flghMA--",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "J0IP",
+                "classOfService": "J",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1059",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 6216,
+                    "revenueFare": 4900,
+                    "publishedFare": 4900,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 4900,
+                    "serviceCharges": [
+                      {
+                        "amount": 4900,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 4900,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1316,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1316,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Kfn42RX5KMElQfjEwNTl_fjB_MzJ_flg-"
+              }
+            ]
+          },
+          "MH5Kfn42RX5KMElQfjEwNTd_fjB_MTJ_flghMQ--": {
+            "totals": {
+              "fareTotal": 6636,
+              "revenueTotal": 5300,
+              "publishedTotal": 5300,
+              "loyaltyTotal": 0,
+              "discountedTotal": 5300
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Kfn42RX5KMElQfjEwNTd_fjB_MTJ_flghMQ--",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "J0IP",
+                "classOfService": "J",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1057",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 6636,
+                    "revenueFare": 5300,
+                    "publishedFare": 5300,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 5300,
+                    "serviceCharges": [
+                      {
+                        "amount": 5300,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 5300,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1336,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1336,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Kfn42RX5KMElQfjEwNTd_fjB_MTJ_flg-"
+              }
+            ]
+          },
+          "MH5Pfn42RX5PMElQfjEwNTl_fjB_MzB_flghMg--": {
+            "totals": {
+              "fareTotal": 6741,
+              "revenueTotal": 5400,
+              "publishedTotal": 5400,
+              "loyaltyTotal": 0,
+              "discountedTotal": 5400
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Pfn42RX5PMElQfjEwNTl_fjB_MzB_flghMg--",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "O0IP",
+                "classOfService": "O",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1059",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 6741,
+                    "revenueFare": 5400,
+                    "publishedFare": 5400,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 5400,
+                    "serviceCharges": [
+                      {
+                        "amount": 5400,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 5400,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1341,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1341,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Pfn42RX5PMElQfjEwNTl_fjB_MzB_flg-"
+              }
+            ]
+          },
+          "MH5Ofn42RX5OMElQfjEwNTl_fjB_MzN_flghMw--": {
+            "totals": {
+              "fareTotal": 6951,
+              "revenueTotal": 5600,
+              "publishedTotal": 5600,
+              "loyaltyTotal": 0,
+              "discountedTotal": 5600
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Ofn42RX5OMElQfjEwNTl_fjB_MzN_flghMw--",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "N0IP",
+                "classOfService": "N",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1059",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 6951,
+                    "revenueFare": 5600,
+                    "publishedFare": 5600,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 5600,
+                    "serviceCharges": [
+                      {
+                        "amount": 5600,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 5600,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1351,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1351,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Ofn42RX5OMElQfjEwNTl_fjB_MzN_flg-"
+              }
+            ]
+          },
+          "MH5Ufn42RX5UMElQfjEwNTd_fjB_MTJ_flghNA--": {
+            "totals": {
+              "fareTotal": 7056,
+              "revenueTotal": 5700,
+              "publishedTotal": 5700,
+              "loyaltyTotal": 0,
+              "discountedTotal": 5700
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Ufn42RX5UMElQfjEwNTd_fjB_MTJ_flghNA--",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "T0IP",
+                "classOfService": "T",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1057",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 7056,
+                    "revenueFare": 5700,
+                    "publishedFare": 5700,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 5700,
+                    "serviceCharges": [
+                      {
+                        "amount": 5700,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 5700,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1356,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1356,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Ufn42RX5UMElQfjEwNTd_fjB_MTJ_flg-"
+              }
+            ]
+          },
+          "MH5Nfn42RX5NMElQfjEwNTl_fjB_Mjd_flghNQ--": {
+            "totals": {
+              "fareTotal": 7266,
+              "revenueTotal": 5900,
+              "publishedTotal": 5900,
+              "loyaltyTotal": 0,
+              "discountedTotal": 5900
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Nfn42RX5NMElQfjEwNTl_fjB_Mjd_flghNQ--",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "M0IP",
+                "classOfService": "M",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1059",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 7266,
+                    "revenueFare": 5900,
+                    "publishedFare": 5900,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 5900,
+                    "serviceCharges": [
+                      {
+                        "amount": 5900,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 5900,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1366,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1366,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Nfn42RX5NMElQfjEwNTl_fjB_Mjd_flg-"
+              }
+            ]
+          },
+          "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flghNg--": {
+            "totals": {
+              "fareTotal": 7581,
+              "revenueTotal": 6200,
+              "publishedTotal": 6200,
+              "loyaltyTotal": 0,
+              "discountedTotal": 6200
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flghNg--",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "V0IP",
+                "classOfService": "V",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1059",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 7581,
+                    "revenueFare": 6200,
+                    "publishedFare": 6200,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 6200,
+                    "serviceCharges": [
+                      {
+                        "amount": 6200,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 6200,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1381,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1381,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Wfn42RX5WMElQfjEwNTl_fjB_MjF_flg-"
+              }
+            ]
+          },
+          "MH5Ofn42RX5OMElQfjEwNTd_fjB_MTAzfn5YITc-": {
+            "totals": {
+              "fareTotal": 7896,
+              "revenueTotal": 6500,
+              "publishedTotal": 6500,
+              "loyaltyTotal": 0,
+              "discountedTotal": 6500
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Ofn42RX5OMElQfjEwNTd_fjB_MTAzfn5YITc-",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "N0IP",
+                "classOfService": "N",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1057",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 7896,
+                    "revenueFare": 6500,
+                    "publishedFare": 6500,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 6500,
+                    "serviceCharges": [
+                      {
+                        "amount": 6500,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 6500,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1396,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1396,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Ofn42RX5OMElQfjEwNTd_fjB_MTAzfn5Y"
+              }
+            ]
+          },
+          "MH5Nfn42RX5NMElQfjEwNTd_fjB_MTAxfn5YITg-": {
+            "totals": {
+              "fareTotal": 8316,
+              "revenueTotal": 6900,
+              "publishedTotal": 6900,
+              "loyaltyTotal": 0,
+              "discountedTotal": 6900
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Nfn42RX5NMElQfjEwNTd_fjB_MTAxfn5YITg-",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "M0IP",
+                "classOfService": "M",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1057",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 8316,
+                    "revenueFare": 6900,
+                    "publishedFare": 6900,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 6900,
+                    "serviceCharges": [
+                      {
+                        "amount": 6900,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 6900,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1416,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1416,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Nfn42RX5NMElQfjEwNTd_fjB_MTAxfn5Y"
+              }
+            ]
+          },
+          "MH5Lfn42RX5LMElQfjEwNTl_fjB_MjB_flghOQ--": {
+            "totals": {
+              "fareTotal": 8316,
+              "revenueTotal": 6900,
+              "publishedTotal": 6900,
+              "loyaltyTotal": 0,
+              "discountedTotal": 6900
+            },
+            "isSumOfSector": false,
+            "fareAvailabilityKey": "MH5Lfn42RX5LMElQfjEwNTl_fjB_MjB_flghOQ--",
+            "fares": [
+              {
+                "isGoverning": true,
+                "fareBasisCode": "K0IP",
+                "classOfService": "K",
+                "classType": null,
+                "fareApplicationType": 0,
+                "fareStatus": 0,
+                "productClass": "R",
+                "ruleNumber": "1059",
+                "ruleTariff": null,
+                "passengerFares": [
+                  {
+                    "fareDiscountCode": null,
+                    "passengerDiscountCode": null,
+                    "passengerType": "ADT",
+                    "fareAmount": 8316,
+                    "revenueFare": 6900,
+                    "publishedFare": 6900,
+                    "loyaltyPoints": 0,
+                    "discountedFare": 6900,
+                    "serviceCharges": [
+                      {
+                        "amount": 6900,
+                        "code": null,
+                        "detail": null,
+                        "type": 0,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 6900,
+                        "ticketCode": null
+                      },
+                      {
+                        "amount": 1416,
+                        "code": null,
+                        "detail": "TaxFeeSum",
+                        "type": 5,
+                        "collectType": 0,
+                        "currencyCode": "INR",
+                        "foreignCurrencyCode": "INR",
+                        "foreignAmount": 1416,
+                        "ticketCode": null
+                      }
+                    ],
+                    "multiplier": 1
+                  }
+                ],
+                "travelClassCode": null,
+                "isAllotmentMarketFare": false,
+                "reference": "MH5Lfn42RX5LMElQfjEwNTl_fjB_MjB_flg-"
+              }
+            ]
+          }
+        },
+        "currencyCode": "INR",
+        "includeTaxesAndFees": true,
+        "bundleOffers": null
+      }
+    }
+  }

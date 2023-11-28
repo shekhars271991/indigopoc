@@ -1,0 +1,14 @@
+{
+    "DEL|BOM": [
+        {
+            "date": {
+                "journeysAvailableByMarket": {},
+                "faresAvailable": {}
+            },
+            "date2": {
+                "journeysAvailableByMarket": {},
+                "faresAvailable": {}
+            }
+        }
+    ]
+}
