@@ -4,7 +4,7 @@ import redis
 app = Flask(__name__)
 r = redis.Redis(host="redis-12764.skr.demo.redislabs.com", port=12764)
 
-@app.route('/sorted_set_data', methods=['GET'])
+@app.route('/getMinFares', methods=['GET'])
 def get_sorted_set_data():
     try:
         source = request.args.get('s')    

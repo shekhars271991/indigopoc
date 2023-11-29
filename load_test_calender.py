@@ -6,8 +6,8 @@ class MyUser(HttpUser):
     @task
     def my_api_request(self):
         # Define the API endpoint you want to test
-        endpoint = "/getFlightData"
-        query_params = {"date": "2023-11-27", "s": "DEL", "d":"BOM"}
+        endpoint = "/getMinFares"
+        query_params = {"s": "DEL", "d":"BOM"}
 
         
         # Make a request to your API
@@ -17,4 +17,4 @@ class MyUser(HttpUser):
         # Example: assert response.status_code == 200
 
 # Run Locust with the following command in your terminal
-# locust -f load_test.py --host=http://127.0.0.1:3000
+# locust -f load_test_calender.py --host=http://127.0.0.1:5000
